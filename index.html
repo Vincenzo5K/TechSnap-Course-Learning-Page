@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Detail Page</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <div class="first-header">
+            <div class="left-header">
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+                <img id="logo" src="images/logo.png">
+            </div>
+
+            <div class="right-header">
+                <div class="all-apps-container">
+                    <i class='bx bxs-grid'></i>
+                </div>
+
+                <div class="notification-container">
+                    <div class="notification_icon">
+                        <i id="notify" class="fas fa-bell"></i>
+                    </div>
+                    <div class="dropdown">
+                        <div class="notify_item">
+                            <div class="notify_img">
+                                <img src="images/User.png" alt="profile_pic" style="width: 50px">
+                            </div>
+                            <div class="notify_info">
+                                <p>You have submitted your assignment submission for<span>Assignment-1
+                                        (21.06.2022)</span></p>
+                                <span class="notify_time">10 minutes ago</span>
+                            </div>
+                        </div>
+                        <div class="notify_item">
+                            <div class="notify_img">
+                                <img src="images/User.png" alt="profile_pic" style="width: 50px">
+                            </div>
+                            <div class="notify_info">
+                                <p>You have submitted your assignment submission for<span>Assignment-1
+                                        (21.06.2022)</span></p>
+                                <span class="notify_time">10 minutes ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="profile-container">
+                    <i id="profile" class="fa-solid fa-user"></i>
+                    <div class="dropdown-content">
+                        <a href="#"><span><i class="fa-solid fa-gauge"></i>Dashboard</span></a>
+                        <a href="#"><span><i class="fa-solid fa-table"></i>Grades</span></a>
+                        <a href="#"><span><i class="fa-solid fa-comment"></i>Messages</span></a>
+                        <a href="#"><span><i class="fa-solid fa-wrench"></i>Preferences</span></a>
+                        <a href="#"><span><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="second-header">
+            <nav class="nav-bar">
+                <ul class="navigation">
+                    <li><a href="#" class="first">Course Home</a></li>
+                    <li><a href="#">Content<span><i class="fa-solid fa-angle-down"></i></span></a>
+
+                        <!--  -->
+                        <ul>
+                            <li><a href="#">Link-1</a></li>
+                            <li><a href="#">Link-2</a></li>
+                            <li><a href="#">Sub-Drop Down <span><i class="fa-solid fa-angle-right"></i></span></a>
+                                <ul>
+                                    <li><a href="#">Link-1</a></li>
+                                    <li><a href="#">Link-2</a></li>
+                                    <li><a href="#">Link-3</a></li>
+                                    <li><a href="#">Link-4</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!--  -->
+
+                    </li>
+                    <li><a href="#">Test & Assignments<span><i class="fa-solid fa-angle-down"></i></span></a>
+
+                        <!--  -->
+                        <ul>
+                            <li><a href="#">Link-1</a></li>
+                            <li><a href="#">Link-2</a></li>
+                            <li><a href="#">Sub-Drop Down <span><i class="fa-solid fa-angle-right"></i></span></a>
+                                <ul>
+                                    <li><a href="#">Link-1</a></li>
+                                    <li><a href="#">Link-2</a></li>
+                                    <li><a href="#">Link-3</a></li>
+                                    <li><a href="#">Link-4</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!--  -->
+
+                    </li>
+                    <li><a href="#">Communication<span><i class="fa-solid fa-angle-down"></i></span></a>
+
+                        <!--  -->
+                        <ul>
+                            <li><a href="#">Link-1</a></li>
+                            <li><a href="#">Link-2</a></li>
+                            <li><a href="#">Sub-Drop Down <span><i class="fa-solid fa-angle-right"></i></span></a>
+                                <ul>
+                                    <li><a href="#">Link-1</a></li>
+                                    <li><a href="#">Link-2</a></li>
+                                    <li><a href="#">Link-3</a></li>
+                                    <li><a href="#">Link-4</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!--  -->
+
+                    </li>
+                    <li><a href="#">Course Tools<span><i class="fa-solid fa-angle-down"></i></span></a>
+
+                        <!--  -->
+                        <ul>
+                            <li><a href="#">Link-1</a></li>
+                            <li><a href="#">Link-2</a></li>
+                            <li><a href="#">Sub-Drop Down <span><i class="fa-solid fa-angle-right"></i></span></a>
+                                <ul>
+                                    <li><a href="#">Link-1</a></li>
+                                    <li><a href="#">Link-2</a></li>
+                                    <li><a href="#">Link-3</a></li>
+                                    <li><a href="#">Link-4</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!--  -->
+
+                    </li>
+                    <li><a href="#">E - Library<span><i class="fa-solid fa-angle-down"></i></span></a>
+
+                        <!--  -->
+                        <ul>
+                            <li><a href="#">Link-1</a></li>
+                            <li><a href="#">Link-2</a></li>
+                            <li><a href="#">Sub-Drop Down <span><i class="fa-solid fa-angle-right"></i></span></a>
+                                <ul>
+                                    <li><a href="#">Link-1</a></li>
+                                    <li><a href="#">Link-2</a></li>
+                                    <li><a href="#">Link-3</a></li>
+                                    <li><a href="#">Link-4</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!--  -->
+
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="content-container">
+        <nav class="sidebar close">
+            <header>
+                <i class='bx bx-chevron-right toggle'></i>
+            </header>
+
+            <div class="menu-bar">
+                <div class="menu">
+
+                    <li class="search-box">
+                        <i class='bx bx-search icon'></i>
+                        <input type="text" placeholder="Search...">
+                    </li>
+
+                    <ul class="menu-links">
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-home-alt icon'></i>
+                                <span class="text nav-text">Dashboard</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-bar-chart-alt-2 icon'></i>
+                                <span class="text nav-text">Revenue</span>
+                            </a>
+
+
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-bell icon'></i>
+                                <span class="text nav-text">Notifications</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-pie-chart-alt icon'></i>
+                                <span class="text nav-text">Analytics</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-heart icon'></i>
+                                <span class="text nav-text">Likes</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-wallet icon'></i>
+                                <span class="text nav-text">Wallets</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="bottom-content">
+                    <li class="">
+                        <a href="#">
+                            <i class='bx bx-log-out icon'></i>
+                            <span class="text nav-text">Logout</span>
+                        </a>
+                    </li>
+
+                    <li class="mode">
+                        <div class="sun-moon">
+                            <i class='bx bx-moon icon moon'></i>
+                            <i class='bx bx-sun icon sun'></i>
+                        </div>
+                        <span class="mode-text text">Dark mode</span>
+
+                        <div class="toggle-switch">
+                            <span class="switch"></span>
+                        </div>
+                    </li>
+
+                </div>
+            </div>
+        </nav>
+
+        <section class="home">
+            <div class="top-section">
+                <div class="course-card">
+                    <div class="file-icon">
+                        <i class="fa-solid fa-file-lines"></i>
+                    </div>
+
+                    <h1>PDF - Complex Numbers</h1>
+
+                    <button type="button" value="Continue">Continue</button>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <div class="topics-cards">
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="topic-1">
+                            <label for="topic-1">Course Introduction<span><i class="fa-solid fa-angle-down"></i></span></label>
+                            
+                            <div class="tutorials">
+                                <button type="button" value="Launch Unit">Launch Unit</button>
+                                <ul>    
+                                    <li>
+                                        <input type="checkbox" id="t1-tutorial-1">
+                                        <label for="t1-tutorial-1">e - Tutorial<span>0/36 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                                    </li>
+
+                                    <li>
+                                        <input type="checkbox" id="t1-tutorial-2">
+                                        <label for="t1-tutorial-2">e - Content<span>0/2 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                                    </li>
+
+                                    <li>
+                                        <input type="checkbox" id="t1-tutorial-3">
+                                        <label for="t1-tutorial-3">Discussion Forum<span>0/1 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                                    </li>
+
+                                    <li>
+                                        <input type="checkbox" id="t1-tutorial-4">
+                                        <label for="t1-tutorial-4">Assessment<span>0/1 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <input type="checkbox" id="topic-2">
+                            <label for="topic-2">Unit 01 : Set Theory<span>Completed 0/40 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                            
+                            <div class="tutorials">
+                                <button type="button" value="Launch Unit">Launch Unit</button>
+                                <ul>    
+                                    <li>
+                                        <input type="checkbox" id="t2-tutorial-1">
+                                        <label for="t2-tutorial-1">e - Tutorial<span>0/36 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                                    </li>
+
+                                    <li>
+                                        <input type="checkbox" id="t2-tutorial-2">
+                                        <label for="t2-tutorial-2">e - Content<span>0/2 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                                    </li>
+
+                                    <li>
+                                        <input type="checkbox" id="t2-tutorial-3">
+                                        <label for="t2-tutorial-3">Discussion Forum<span>0/1 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                                    </li>
+
+                                    <li>
+                                        <input type="checkbox" id="t2-tutorial-4">
+                                        <label for="t2-tutorial-4">Assessment<span>0/1 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="topic-3">
+                            <label for="topic-3">Unit 02 : Mathematical Logic<span>Completed 1/28 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                            
+                            <div class="tutorials">
+                                <button type="button" value="Launch Unit">Launch Unit</button>
+                                <ul>    
+                                    <li>
+                                        <input type="checkbox" id="t3-tutorial-1">
+                                        <label for="t3-tutorial-1">e - Tutorial<span>0/36 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                                    </li>
+
+                                    <li>
+                                        <input type="checkbox" id="t3-tutorial-2">
+                                        <label for="t3-tutorial-2">e - Content<span>0/2 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                                    </li>
+
+                                    <li>
+                                        <input type="checkbox" id="t3-tutorial-3">
+                                        <label for="t3-tutorial-3">Discussion Forum<span>0/1 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                                    </li>
+
+                                    <li>
+                                        <input type="checkbox" id="t3-tutorial-4">
+                                        <label for="t3-tutorial-4">Assessment<span>0/1 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="topic-4">
+                            <label for="topic-4">Unit 03 : Modern Algebra<span>Completed 0/19 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                            
+                            <div class="tutorials">
+                                <button type="button" value="Launch Unit">Launch Unit</button>
+                                <ul>    
+                                    <li>
+                                        <input type="checkbox" id="t4-tutorial-1">
+                                        <label for="t4-tutorial-1">e - Tutorial<span>0/36 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                                    </li>
+
+                                    <li>
+                                        <input type="checkbox" id="t4-tutorial-2">
+                                        <label for="t4-tutorial-2">e - Content<span>0/2 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                                    </li>
+
+                                    <li>
+                                        <input type="checkbox" id="t4-tutorial-3">
+                                        <label for="t4-tutorial-3">Discussion Forum<span>0/1 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                                    </li>
+
+                                    <li>
+                                        <input type="checkbox" id="t4-tutorial-4">
+                                        <label for="t4-tutorial-4">Assessment<span>0/1 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="topic-5">
+                            <label for="topic-5">Unit 04 : Trignometry<span>Completed 1/28 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                            
+                            <div class="tutorials">
+                                <button type="button" value="Launch Unit">Launch Unit</button>
+                                <ul>    
+                                    <li>
+                                        <input type="checkbox" id="t5-tutorial-1">
+                                        <label for="t5-tutorial-1">e - Tutorial<span>0/36 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                                    </li>
+
+                                    <li>
+                                        <input type="checkbox" id="t5-tutorial-2">
+                                        <label for="t5-tutorial-2">e - Content<span>0/2 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                                    </li>
+
+                                    <li>
+                                        <input type="checkbox" id="t5-tutorial-3">
+                                        <label for="t5-tutorial-3">Discussion Forum<span>0/1 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                                    </li>
+
+                                    <li>
+                                        <input type="checkbox" id="t5-tutorial-4">
+                                        <label for="t5-tutorial-4">Assessment<span>0/1 &nbsp; &nbsp;<i class="fa-solid fa-angle-down"></i></span></label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
